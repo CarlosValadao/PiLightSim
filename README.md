@@ -12,9 +12,9 @@ O programa utiliza um temporizador periódico via software, que alterna as cores
 
 As cores são controladas via os pinos da placa BitDogLab conectados ao LED RGB, onde:
 
-- **Pin 13** controla o LED Red,
-- **Pin 12** controla o LED Blue,
-- **Pin 11** controla o LED Green.
+- **Pin 13** controla o LED Red 🔴,
+- **Pin 12** controla o LED Blue 🔵,
+- **Pin 11** controla o LED Green 🟢.
 
 ## 🛠 2. Requisitos
 
