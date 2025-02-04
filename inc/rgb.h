@@ -2,9 +2,9 @@
 #define RGB_H
 
 #define RED         0             /**< Define a cor vermelha para os LEDs */
-#define GREEN       1             /**< Define a cor verde para os LEDs */
-#define BLUE        2             /**< Define a cor azul para os LEDs */
-#define YELLOW      3             /**< Define a cor amarela para os LEDs */
+#define GREEN       2             /**< Define a cor verde para os LEDs */
+#define BLUE        3             /**< Define a cor azul para os LEDs */
+#define YELLOW      1             /**< Define a cor amarela para os LEDs */
 #define PURPLE      4             /**< Define a cor roxa para os LEDs */
 #define WHITE       5             /**< Define a cor branca para os LEDs */
 #define BLUE_MARINE 6             /**< Define a cor azul-marinho para os LEDs */
