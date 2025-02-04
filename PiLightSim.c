@@ -8,8 +8,10 @@
 #define LED_GREEN_PIN 11
 #define LED_BLUE_PIN  12
 
+#define REPEATING_TIME_MS 3000
+
 // Variável que armazena a cor atual do semáforo, começando com a cor vermelha
-static volatile uint8_t traffic_light_color = RED;
+static volatile uint32_t traffic_light_color = RED;
 
 // Declaração da função que define a cor do semáforo
 static void set_traffic_light_color(uint8_t color, const rgb_t *pins);
@@ -30,7 +32,7 @@ int main()
 
     // Cria um temporizador repetitivo que chama o callback a cada 3000ms (3 segundos)
     // O parâmetro 'pins' é passado para o callback através de 'user_data'
-    add_repeating_timer_ms(3000, repeating_timer_callback, &pins, &timer);
+    add_repeating_timer_ms(REPEATING_TIME_MS, repeating_timer_callback, &pins, &timer);
     
     // Loop infinito - o temporizador continua a chamar o callback em segundo plano
     while(true);
