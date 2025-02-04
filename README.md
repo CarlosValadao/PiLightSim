@@ -74,19 +74,19 @@ Depois de carregar o programa, o semáforo começará a simular as cores a cada 
 ### 💻 Passo 7: Rodando o Código no Wokwi
 Para rodar o código diretamente no Wokwi, siga os passos abaixo:
 
-1. Instale a Extensão Wokwi no VS Code:
+**1. Instale a Extensão Wokwi no VS Code:**
 
 No VS Code, instale a extensão Wokwi. Isso pode ser feito diretamente no marketplace do VS Code, pesquisando por "Wokwi".
 
-2. Arquivo diagram.json Já Preenchido:
+**2. Arquivo diagram.json Já Preenchido:**
 
-O arquivo _diagram.json_ já está configurado corretamente no projeto. Não é necessário fazer nenhuma modificação nele.
+O arquivo** _diagram.json_** já está configurado corretamente no projeto. Não é necessário fazer nenhuma modificação nele.
 
-3. Abra o Projeto no Wokwi:
+**3. Abra o Projeto no Wokwi:**
 
 No VS Code, abra o arquivo diagram.json para carregar a simulação no Wokwi.
 
-4. Simule o Código:
+**4. Simule o Código:**
 
 Clique em Start Simulation no Wokwi para iniciar a execução do código.
 O semáforo começará a simular as cores a cada 3 segundos, alternando entre 🟥 Vermelho → 🟨 Amarelo → 🟩 Verde.
