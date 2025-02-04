@@ -28,6 +28,8 @@ Antes de começar a usar o PiLightSim, certifique-se de que você tem as seguint
 ✅ gcc-arm-eabi (compilador)
 ✅ BitDogLab 6.3 para controle do LED RGB
 
+https://github.com/user-attachments/assets/311af299-8a00-4249-a046-1a74d0bf2a58
+
 ## 🚀 3. Instalação e Execução
 
 ### 🔹 Passo 1: Clonando o Repositório
