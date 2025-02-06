@@ -1,4 +1,4 @@
-# 🚦 PiLightSim
+# 🚦 PiLightSim [Vídeo de apresentação](https://youtu.be/eI9AtzHlC2U)
 
 PiLightSim é um simulador de semáforo desenvolvido em linguagem C, utilizando o pico SDK na versão 2.1.0. Este projeto foi feito utilizando o VS Code com as extensões CMake, Raspberry Pi Pico e o compilador gcc-arm-eabi. O programa simula um semáforo com a utilização de um LED RGB na placa BitDogLab 6.3, controlando a alternância de cores do LED a cada 3 segundos, simulando as cores de um semáforo: vermelho → amarelo → verde.
 
